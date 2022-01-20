@@ -1,0 +1,27 @@
+#pcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #40394a;
+  background-color: #7eca9c;
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  border-radius: 25px;
+}
+
+#card {
+  text-align: center;
+  color: #40394a;
+  background-color: #7eca9c;
+  transition: 0.5s;
+  padding: 1%;
+}
+
+#cardcontent {
+  padding: 5%;
+  font-weight: 500;
+  font-size: xx-large;
+  font-family: monospace;
+}
