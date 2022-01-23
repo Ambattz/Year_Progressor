@@ -1,6 +1,8 @@
 import MainCard from './Components/MainCard'
+import Welcome from './Components/Welcome'
 import './App.css';
 import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 import { useState } from 'react';
 
 
@@ -21,19 +23,21 @@ var percent = Math.floor((day / totalday) * 100);
 
 const App = () => {
 
-  const [View, setView] = useState(false);
+  const [View, setView] = useState(true);
   const showHandler = () => {
     setView(!View);
     console.log("Toggling");
   }
   return (
     <div >
-      <div className='button'>
+      <div className='button' >
         <Button variant="contained" size="large" color="success" onClick={showHandler}>
-          Show YProgressor
+          <Typography variant="button" display="block" gutterBottom>
+            Hide/Show Year Progressor
+          </Typography>
         </Button>
       </div>
-      {View ? <MainCard p={percent} d={day} td={totalday} w={week} tw={totalweek} m={month} /> : null}
+      {View ? <MainCard p={percent} d={day} td={totalday} w={week} tw={totalweek} m={month} /> : <Welcome />}
     </div>
   );
 }
