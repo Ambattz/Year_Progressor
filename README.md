@@ -72,3 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Year_Progressor
 
 Boredom Projects | REACT,HTML, CSS, JS | Created by Ambattz | 2022 |
+
+# Screenshot
+
+![2022-01-30 (8)](https://user-images.githubusercontent.com/69767685/151709521-b0868237-790a-4eb8-99df-ffee2667868a.png)
+
+![2022-01-30 (7)](https://user-images.githubusercontent.com/69767685/151709523-f09690e2-6482-4a0f-8e5f-1705a2b155af.png)
